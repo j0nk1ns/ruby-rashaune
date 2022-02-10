@@ -13,7 +13,7 @@ public class RubyController : MonoBehaviour
     public int health { get { return currentHealth; }}
     int currentHealth;
     
-    public float timeInvincible = 8.0f;
+    public float timeInvincible = 2.0f;
     bool isInvincible;
     float invincibleTimer;
     
@@ -94,7 +94,7 @@ public class RubyController : MonoBehaviour
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
-
-        animator.SetTrigger("Launch");
+         
+         animator.SetTrigger("Launch");
     }
 }
