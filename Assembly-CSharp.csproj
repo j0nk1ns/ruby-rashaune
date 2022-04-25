@@ -49,9 +49,9 @@
   <ItemGroup>
      <Compile Include="Assets\script\RubyController.cs" />
      <Compile Include="Assets\script\EnemyController.cs" />
+     <Compile Include="Assets\script\Projectile.cs" />
      <Compile Include="Assets\script\DamageZone.cs" />
      <Compile Include="Assets\script\HealthCollectible.cs" />
-     <Compile Include="Assets\script\Projectile script.cs" />
      <None Include="Assets\2DBeginner_Third-PartyNotice.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -682,6 +682,12 @@
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
  <HintPath>/Users/game12/New Unity Project/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/game12/New Unity Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/game12/New Unity Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Triangle.Runtime">
  <HintPath>/Users/game12/New Unity Project/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>

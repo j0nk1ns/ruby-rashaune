@@ -46,10 +46,10 @@ public class RubyController : MonoBehaviour
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
         }
-        
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
+       
         
         if (isInvincible)
         {
@@ -60,7 +60,8 @@ public class RubyController : MonoBehaviour
         
         if(Input.GetKeyDown(KeyCode.C))
         {
-            Launch();
+            LaunchP();
+            Debug.Log(lookDirection);
         }
     }
     
@@ -71,6 +72,7 @@ public class RubyController : MonoBehaviour
         position.y = position.y + speed * vertical * Time.deltaTime;
 
         rigidbody2d.MovePosition(position);
+        
     }
 
     public void ChangeHealth(int amount)
@@ -88,13 +90,14 @@ public class RubyController : MonoBehaviour
         Debug.Log(currentHealth + "/" + maxHealth);
     }
     
-    void Launch()
+    void LaunchP()
     {
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
-        projectile.Launch(lookDirection, 300);
-         
+
+        
+         projectile.Launch(lookDirection, 300f);
          animator.SetTrigger("Launch");
     }
 }
