@@ -8,7 +8,10 @@ public class RubyController : MonoBehaviour
     
     public int maxHealth = 5;
     
-    public GameObject projectilePrefab;
+    public GameObject projectilePrefab; 
+
+    public AudioClip throwSound;
+    public AudioClip hitSound;
     
     public int health { get { return currentHealth; }}
     int currentHealth;
@@ -23,7 +26,9 @@ public class RubyController : MonoBehaviour
     
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
-    
+     
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +36,8 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
         
         currentHealth = maxHealth;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -114,6 +121,15 @@ public class RubyController : MonoBehaviour
 
         
          projectile.Launch(lookDirection, 300f);
+
          animator.SetTrigger("Launch");
+
+         PlaySound(throwSound); 
+
+    } 
+    
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }

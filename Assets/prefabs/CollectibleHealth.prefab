@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2274324133072682337}
   - component: {fileID: 2274324133072682338}
+  - component: {fileID: 6855247502413406940}
   - component: {fileID: 2274324133072682339}
   m_Layer: 0
   m_Name: CollectibleHealth
@@ -83,6 +84,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6855247502413406940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2274324133072682340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89d2e1e473334def8f7c1ef3748107c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
 --- !u!61 &2274324133072682339
 BoxCollider2D:
   m_ObjectHideFlags: 0
