@@ -101,6 +101,8 @@ MonoBehaviour:
   speed: 5
   maxHealth: 10
   projectilePrefab: {fileID: 1685987982534220764, guid: 203a94435c6dd4ded9468cca39674d2f, type: 3}
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+  hitSound: {fileID: 8300000, guid: 709a835b61b848644946696fdd5e5a4d, type: 3}
   timeInvincible: 4
 --- !u!50 &4076503249968827931
 Rigidbody2D:
