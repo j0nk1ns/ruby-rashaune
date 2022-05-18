@@ -1,0 +1,28 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9fcb6de907da04190a03cd87f28fad68
+# Starting compiling UnityEngine.UI.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2f0fee3b3b96140fbbb48d80c6744f61
+# Starting compiling Unity.InternalAPIEngineBridge.001.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2653f654f6cc14d29ab5bded097842dc
+# Starting compiling Unity.2D.PixelPerfect.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a37ad54199dc34f41b37f4a81c6f5c61
+# Starting compiling Unity.Timeline.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3e3f6fe2d14f8417698f35c23a0fb7a1
+# Starting compiling Unity.TextMeshPro.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a41058ae848f74734a5aef10d2e4e0b0
+# Starting compiling Unity.Mathematics.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1dd48d1bc687643ef926b328a4af8f4a
+# Starting compiling Unity.2D.IK.Runtime.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bb4c469d84a98494b83f94b2b644cb0d
+# Starting compiling Unity.2D.Animation.Triangle.Runtime.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b60de125ca74741b7b24c77b3a8ec60c
+# Starting compiling Unity.2D.Common.Runtime.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8584d21925cdc44dd971bbeaffe01295
+# Starting compiling Cinemachine.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ab5f9c410e8a24e7d8ae35d44c5252be
+# Starting compiling Unity.2D.Animation.Runtime.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5822e1484d949476e9811b80e6dba46c
+# Starting compiling Unity.2D.SpriteShape.Runtime.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2a6a0c548880c4443abdd064bb94fcca
+# Starting compiling Assembly-CSharp.dll
+/Users/game12/Desktop/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0d3143ebfda22440fbd8aa7cfd9cc133
